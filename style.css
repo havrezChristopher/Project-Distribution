@@ -1,1 +1,79 @@
+body {}
 
+main {
+    display: flex;
+    background-size: contain;
+    background: url("./image/Fond4.jpg");
+    border: 2px solid black;
+    justify-content: space-between;
+
+}
+
+.presentation h3 {
+
+    border-bottom: 3px solid rgb(226, 222, 222);
+    text-align: center;
+}
+
+.presentation p {
+
+
+    text-align: center;
+}
+
+.presentation {
+
+    color: white;
+    background: #980e0ee2;
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 5px;
+    width: 220px;
+    height: 160px;
+    margin-top: 100px;
+    margin-left: 40px;
+
+}
+
+.distributeur {
+    display: flex;
+    background: url(./image/Distributeurs.jpg);
+    border: 2px solid wheat;
+    height: 500px;
+    width: 260px;
+    border-radius: 5px;
+    margin-top: 200px;
+    background-size: contain
+}
+/* bouton machine  */
+#btn1{
+    height: 60px;
+    width: 120px;
+}
+#btn2{
+    height: 60px;
+    width: 120px;
+}
+#btn3{
+    height: 60px;
+    width: 120px;
+}
+#btn4{
+    height: 60px;
+    width: 120px;
+}
+
+.affichageMachine {
+    
+
+    color: white;
+    background: #980e0ee2;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 220px;
+    width: 300px;
+    margin-top: 240px;
+    margin-right: 200px;
+
+
+
+}
