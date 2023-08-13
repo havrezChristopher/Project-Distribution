@@ -1,10 +1,10 @@
 
 //1================== Selection (id) Des Bouton !====================
-let listeBtn1 = document.getElementById("btn1")
-let listeBtn2 = document.getElementById("btn2")
-let listeBtn3 = document.getElementById("btn3")
-let listeBtn4 = document.getElementById("btn4")
-
+let listeBtn1 = document.getElementById("btn_1")
+let listeBtn2 = document.getElementById("btn_2")
+let listeBtn3 = document.getElementById("btn_3")
+let listeBtn4 = document.getElementById("btn_4")
+//!************************Ajouter les autre id et mettre des noms plus parlant ***********************************
 //2================== Selection (id) Affichage !====================
 let NomAffichage = document.getElementById("NomAffichage")
 let QuantiterAffichage = document.getElementById("QuantiterAffichage")
