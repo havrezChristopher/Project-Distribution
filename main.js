@@ -56,20 +56,32 @@ PrixAffichage.innerText=(`Prix :${Sprit.prix} euro`)
     }
 })
 listeBtn4.addEventListener("click", function () {
+//************************************************************************************ */ 
 // =========================affichage elements stock=================
-    NomAffichage.innerText = (`Boisson :${Eau.nom}`)
-    QuantiterAffichage.innerText=(`Quantiter:${Eau.quantiter}`)
-    PrixAffichage.innerText=(`Prix :${Eau.prix} euro`)
+// NomAffichage.innerText = (`Boisson :${Eau.nom}`)
+// QuantiterAffichage.innerText=(`Quantiter:${Eau.quantiter}`)
+// PrixAffichage.innerText=(`Prix :${Eau.prix} euro`)
+affichageStock(Eau)
 // =========================affichage elements stock=================
     if (Eau.quantiter > 0) {
         Eau.quantiter -= 1
     }
     else {
-        RuptureAffichage.innerText=(`Le Stock de ${Sprit} est de ${Sprit.rupture}`)
+        RuptureAffichage.innerText=(`Le Stock d'${Eau} est de ${Eau.rupture}`)
     }
 
 })
 
+
 // les moddif a faire dans le tableau remplacer et adapter rupture a false
 // description machine en injectant du js dans le html !
 
+// Transformation en fonction **************
+
+function affichageStock(Boisson) {
+    
+    NomAffichage.innerText = (`Boisson :${Boisson.nom}`)
+    QuantiterAffichage.innerText=(`Quantiter:${Boisson.quantiter}`)
+    PrixAffichage.innerText=(`Prix :${Boisson.prix} euro`)
+}
+//************************************************************************************ */
