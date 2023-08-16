@@ -4,7 +4,7 @@ let Coca = {
     nom: "Coca",
     quantiter: 10,
     prix: 1,
-    rupture:0
+    rupture:false
 }
 let Fanta = {
     nom: "Fanta",
